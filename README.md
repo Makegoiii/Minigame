@@ -24,5 +24,9 @@ To address these issues, we separated the responsibilities into different classe
   Dependency Inversion Principle (DIP): High-level classes rely on abstractions (Enemy interface) instead of specific implementations.
       Conclusion
 The refactored game is now modular, flexible, and scalable. By following SOLID principles, we ensured that the code is maintainable and future-proof. This structure allows for easy addition of new features, such as different types of enemies, more complex level progression, and advanced inventory management. The game is now well-structured, making it easier for developers to work with in the future.
+Before
+![image](https://github.com/user-attachments/assets/572167bb-9819-4b44-ba10-18e98c87612f)
+After
+![image](https://github.com/user-attachments/assets/62985ca0-7604-42e6-84b6-cf0d5ff66154)
 
 
