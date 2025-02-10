@@ -21,7 +21,7 @@ To address these issues, we separated the responsibilities into different classe
   Open/Closed Principle (OCP): New enemies, items, and mechanics can be added without modifying existing code.
   Liskov Substitution Principle (LSP): The Enemy interface ensures that different enemy types can be used interchangeably.
   Interface Segregation Principle (ISP): The Enemy interface defines only the essential methods needed for all enemies.
-  Dependency Inversion Principle (DIP): High-level classes rely on abstractions (Enemy interface) instead of specific         implementations.
+  Dependency Inversion Principle (DIP): High-level classes rely on abstractions (Enemy interface) instead of specific implementations.
       Conclusion
 The refactored game is now modular, flexible, and scalable. By following SOLID principles, we ensured that the code is maintainable and future-proof. This structure allows for easy addition of new features, such as different types of enemies, more complex level progression, and advanced inventory management. The game is now well-structured, making it easier for developers to work with in the future.
 
